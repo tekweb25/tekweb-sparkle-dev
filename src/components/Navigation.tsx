@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Sun, Moon } from 'lucide-react';
-import TekWebLogo from './TekWebLogo';
+import { Menu, X, Monitor, Sun, Moon } from 'lucide-react';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,7 +38,12 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <TekWebLogo size="md" className="hover:scale-105 transition-transform" />
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
+                <Monitor className="w-5 h-5 text-white" />
+              </div>
+              <span className="text-xl font-bold text-primary">TekWeb</span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}

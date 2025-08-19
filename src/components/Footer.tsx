@@ -1,6 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
-import TekWebLogo from './TekWebLogo';
+import { Monitor, Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -16,7 +15,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="md:col-span-2 space-y-6">
-            <TekWebLogo size="lg" className="mb-4" />
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
+                <Monitor className="w-5 h-5 text-white" />
+              </div>
+              <span className="text-xl font-bold text-primary">TekWeb</span>
+            </div>
             
             <p className="text-text-secondary max-w-md leading-relaxed">
               Ihr Partner für innovative Webentwicklung und digitale Transformation. 
