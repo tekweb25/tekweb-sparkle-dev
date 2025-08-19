@@ -11,15 +11,15 @@
     --background: 0 0% 100%;
     --foreground: 228 39% 23%;
     
-    /* Professional blue palette */
-    --primary: 221 83% 53%;
+    /* Professional dark blue palette - matching TekWeb logo */
+    --primary: 226 71% 40%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 221 83% 63%;
+    --primary-glow: 226 71% 50%;
     
-    /* Accent purple */
-    --accent: 262 73% 64%;
+    /* Complementary blue accent */
+    --accent: 215 84% 56%;
     --accent-foreground: 0 0% 98%;
-    --accent-glow: 262 73% 74%;
+    --accent-glow: 215 84% 66%;
     
     /* Card and surfaces */
     --card: 0 0% 100%;
@@ -37,15 +37,15 @@
     --ring: 221 83% 53%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%), hsl(262 73% 64%));
-    --gradient-hero: linear-gradient(135deg, hsl(221 83% 53% / 0.1), hsl(262 73% 64% / 0.1));
+    --gradient-primary: linear-gradient(135deg, hsl(226 71% 40%), hsl(215 84% 56%));
+    --gradient-hero: linear-gradient(135deg, hsl(226 71% 40% / 0.1), hsl(215 84% 56% / 0.1));
     --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(220 13% 98%));
     
     /* Shadows */
     --shadow-soft: 0 2px 8px hsl(228 39% 23% / 0.08);
     --shadow-medium: 0 4px 24px hsl(228 39% 23% / 0.12);
     --shadow-large: 0 8px 40px hsl(228 39% 23% / 0.16);
-    --shadow-glow: 0 0 40px hsl(221 83% 53% / 0.3);
+    --shadow-glow: 0 0 40px hsl(226 71% 40% / 0.3);
     
     /* Animation */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -76,15 +76,15 @@
     --background: 228 39% 8%;
     --foreground: 0 0% 98%;
     
-    /* Professional blue palette */
-    --primary: 221 83% 63%;
+    /* Professional dark blue palette - matching TekWeb logo */
+    --primary: 226 71% 50%;
     --primary-foreground: 228 39% 8%;
-    --primary-glow: 221 83% 73%;
+    --primary-glow: 226 71% 60%;
     
-    /* Accent purple */
-    --accent: 262 73% 74%;
+    /* Complementary blue accent */
+    --accent: 215 84% 66%;
     --accent-foreground: 228 39% 8%;
-    --accent-glow: 262 73% 84%;
+    --accent-glow: 215 84% 76%;
     
     /* Card and surfaces */
     --card: 228 39% 12%;
@@ -102,15 +102,15 @@
     --ring: 221 83% 63%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(221 83% 63%), hsl(262 73% 74%));
-    --gradient-hero: linear-gradient(135deg, hsl(221 83% 63% / 0.1), hsl(262 73% 74% / 0.1));
+    --gradient-primary: linear-gradient(135deg, hsl(226 71% 50%), hsl(215 84% 66%));
+    --gradient-hero: linear-gradient(135deg, hsl(226 71% 50% / 0.1), hsl(215 84% 66% / 0.1));
     --gradient-card: linear-gradient(135deg, hsl(228 39% 12%), hsl(228 39% 16%));
     
     /* Shadows */
     --shadow-soft: 0 2px 8px hsl(228 39% 4% / 0.6);
     --shadow-medium: 0 4px 24px hsl(228 39% 4% / 0.8);
     --shadow-large: 0 8px 40px hsl(228 39% 4% / 1);
-    --shadow-glow: 0 0 40px hsl(221 83% 63% / 0.4);
+    --shadow-glow: 0 0 40px hsl(226 71% 50% / 0.4);
   }
 }
 
